@@ -29,6 +29,6 @@ jobs:
     - name: Install node js
       run : npm install -g surge
     - name: Run surge
-      run: surge ./ file.surge.sh --token ${{secrets.surge_token}}
+      run: surge ./ mosin92.surge.sh --token ${{secrets.surge_token}}
       
       
